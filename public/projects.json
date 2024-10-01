@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Piggy-Game",
+    "description": "Build in javascript with DOM Manipulation",
+    "link": "https://github.com/akiii22/piggy_game",
+    "image": "/roll-dice-cover.png",
+    "imageShow": "/roll-dice-cover.png"
+  },
+  {
+    "id": 2,
+    "title": "Bankist_App",
+    "description": "This projects build in some array methods where you can transfer, loan, login and logout",
+    "link": "https://github.com/akiii22/bankist_app",
+    "image": "/bankist-cover.png",
+    "imageShow": "/bankist-show.png"
+  },
+  {
+    "id": 3,
+    "title": "Forkify",
+    "description": "A Website where you can search for foods and make your own recipe using api and mvc pattern",
+    "link": "https://github.com/akiii22/forkify_app",
+    "image": "/forkify-cover.png",
+    "imageShow": "/forkify-show.png"
+  },
+  {
+    "id": 4,
+    "title": "Travel List",
+    "description": "My First React project that introduce useState, Propdrillings.",
+    "link": "https://github.com/akiii22/travel_list",
+    "image": "/travel-list.png",
+    "imageShow": "/travel-list.png"
+  },
+  {
+    "id": 5,
+    "title": "UsePopcorn",
+    "description": "A React project where i used the useEffect hook",
+    "link": "https://github.com/akiii22/MovieApp",
+    "image": "/movie.png",
+    "imageShow": "/movie.png"
+  },
+  {
+    "id": 6,
+    "title": "Love Quiz",
+    "description": "A Quiz app with the use of useReducer hook",
+    "link": "https://github.com/akiii22/Lovequiz",
+    "image": "/love_quiz-cover.png",
+    "imageShow": "/love_quiz-show.png"
+  },
+  {
+    "id": 7,
+    "title": "Mapty",
+    "description": "A Single Page Website using context api",
+    "link": "https://github.com/akiii22/MaptyProject",
+    "image": "/mapty-cover.png",
+    "imageShow": "/mapty-show.png"
+  },
+  {
+    "id": 8,
+    "title": "Assignment Tracker",
+    "description": "A study app where they can input and track their assignment",
+    "link": "https://github.com/akiii22/Assignment_Tracker",
+    "image": "/assignment_cover.png",
+    "imageShow": "/assignment_show.png"
+  },
+  {
+    "id": 9,
+    "title": "Kcl Hardware",
+    "description": "Our Capstone project a ecommerce website with data visualization",
+    "link": "https://kclhardware.com/",
+    "image": "/kcl-cover.png",
+    "imageShow": "/kcl-show.png"
+  }
+]
