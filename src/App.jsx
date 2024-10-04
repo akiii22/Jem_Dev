@@ -7,14 +7,16 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="font-sans">
+    <>
       <Navabar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Footer />
-    </div>
+      <div className="overflow-x-hidden font-sans">
+        <Home />
+        <About />
+        <Projects />
+        <Skills />
+        <Footer />
+      </div>
+    </>
   );
 }
 

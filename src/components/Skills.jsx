@@ -9,7 +9,7 @@ function Skills() {
       </h1>
       <div
         className="my-20 flex flex-wrap items-center justify-evenly"
-        id="skills"
+        id="tech"
       >
         <InView>
           {({ inView, ref }) => (

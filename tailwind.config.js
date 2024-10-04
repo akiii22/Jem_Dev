@@ -15,7 +15,13 @@ export default {
       height: {
         screen: "100dvh",
       },
+      scrollbar: {
+        DEFAULT: {
+          bg: "bg-red-800",
+          thumb: "bg-gray-700", // Color of the scrollbar thumb
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
