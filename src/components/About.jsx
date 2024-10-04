@@ -1,14 +1,34 @@
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
 function About() {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.2,
+  });
+
   return (
     <div className="mx-5 mt-52">
       <div
         className="mx-4 my-5 flex flex-col items-center justify-center gap-6 rounded-xl bg-transparent p-7 sm:mx-auto sm:flex sm:items-center sm:justify-around"
         id="about"
       >
-        <h2 className="px-4 text-3xl font-semibold text-primary sm:text-5xl">
+        <motion.h2
+          ref={ref}
+          className="px-4 text-3xl font-semibold text-primary sm:text-5xl"
+          initial={{ opacity: 0, y: -50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           Who Am I
-        </h2>
-        <div className="rounded-lg px-10 py-6 shadow-2xl sm:p-20">
+        </motion.h2>
+
+        <motion.div
+          className="rounded-lg px-10 py-6 shadow-2xl sm:p-20"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={inView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+        >
           <p className="text-xl font-medium leading-9 tracking-wider text-primary sm:text-2xl sm:leading-10">
             Hi, I'm Jerome R. Bulosan, a fresh graduate with a degree in
             Information Technology, majoring in Web Application Development. I’m
@@ -22,7 +42,7 @@ function About() {
             scenarios, contribute to meaningful projects, and grow as a
             developer in a professional environment.
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
