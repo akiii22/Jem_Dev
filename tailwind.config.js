@@ -18,7 +18,7 @@ export default {
       scrollbar: {
         DEFAULT: {
           bg: "bg-red-800",
-          thumb: "bg-gray-700", // Color of the scrollbar thumb
+          thumb: "bg-gray-700",
         },
       },
     },
