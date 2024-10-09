@@ -25,7 +25,7 @@ function Home() {
         {({ inView, ref }) => (
           <motion.div
             ref={ref}
-            className="space-y-3 px-10 py-10"
+            className="space-y-4 px-10 py-10"
             initial={{ x: 200, opacity: 0 }}
             animate={inView ? { x: 0, opacity: 1 } : {}}
             transition={{
@@ -36,7 +36,7 @@ function Home() {
             }}
           >
             <h2 className="text-5xl font-bold tracking-wider text-primary">
-              Welcome to My <span className="text-blue-200">Portfolio</span>
+              Welcome to My <span className="font-extrabold">Portfolio</span>
             </h2>
             <p className="text-2xl font-semibold text-primary">
               Explore my projects and learn more about my skills and experience.

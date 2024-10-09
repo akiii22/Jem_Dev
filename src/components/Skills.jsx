@@ -8,14 +8,14 @@ function Skills() {
         TechStack
       </h1>
       <div
-        className="my-20 flex flex-wrap items-center justify-evenly"
+        className="my-20 flex flex-wrap items-center justify-evenly gap-8"
         id="tech"
       >
         <InView>
           {({ inView, ref }) => (
             <motion.div
               ref={ref}
-              className="flex flex-col items-center justify-center gap-16 px-4 py-5"
+              className="flex flex-col items-center justify-center gap-16 rounded-md bg-primary px-4 py-5"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0 }}
@@ -26,7 +26,7 @@ function Skills() {
               <img
                 src="languanges.png"
                 alt="languages"
-                className="h-84 w-96 shadow-lg sm:w-96"
+                className="h-84 w-96 sm:w-96"
               />
             </motion.div>
           )}
@@ -36,7 +36,7 @@ function Skills() {
           {({ inView, ref }) => (
             <motion.div
               ref={ref}
-              className="flex flex-col items-center justify-center gap-16 px-4 py-5"
+              className="flex flex-col items-center justify-center gap-16 rounded-md bg-primary px-4 py-5"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -47,7 +47,7 @@ function Skills() {
               <img
                 src="frameworks.png"
                 alt="frameworks"
-                className="h-84 w-96 shadow-lg sm:w-96"
+                className="h-84 w-96 sm:w-96"
               />
             </motion.div>
           )}
@@ -57,7 +57,7 @@ function Skills() {
           {({ inView, ref }) => (
             <motion.div
               ref={ref}
-              className="flex flex-col items-center justify-center gap-16 px-4 py-5"
+              className="flex flex-col items-center justify-center gap-16 rounded-md bg-primary px-4 py-5"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -68,7 +68,7 @@ function Skills() {
               <img
                 src="database.png"
                 alt="database"
-                className="h-84 w-96 shadow-lg sm:w-96"
+                className="h-84 w-96 sm:w-96"
               />
             </motion.div>
           )}
@@ -78,7 +78,7 @@ function Skills() {
           {({ inView, ref }) => (
             <motion.div
               ref={ref}
-              className="flex flex-col items-center justify-center gap-16 px-4 py-5"
+              className="flex flex-col items-center justify-center gap-16 rounded-md px-4 py-5"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.6 }}
@@ -89,7 +89,7 @@ function Skills() {
               <img
                 src="version.png"
                 alt="version"
-                className="h-84 w-96 shadow-lg sm:w-96"
+                className="h-84 w-96 bg-primary sm:w-96"
               />
             </motion.div>
           )}

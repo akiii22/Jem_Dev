@@ -82,13 +82,13 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="sticky top-24 z-50 m-0 rounded-sm bg-blue-100 px-6 py-2 shadow-xl shadow-stone-800 sm:hidden">
-          <ul className="mt-3 flex flex-col gap-4 tracking-widest text-black">
+        <div className="sticky top-24 z-50 m-0 rounded-sm bg-secondary px-6 py-2 shadow-xl shadow-stone-800 sm:hidden">
+          <ul className="mt-3 flex flex-col gap-2 tracking-widest text-primary">
             <li className="text-[25px] font-bold">
               <a
                 href="#home"
                 className="scale-x-0 transition-all duration-200 ease-in hover:border-b-4 hover:border-secondary"
-                onClick={() => setIsOpen(false)} // Close menu on click
+                onClick={() => setIsOpen(false)}
               >
                 Home
               </a>
