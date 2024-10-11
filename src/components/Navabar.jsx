@@ -82,8 +82,8 @@ function Navbar() {
       </div>
 
       {isOpen && (
-        <div className="sticky top-24 z-50 m-0 rounded-sm bg-secondary px-6 py-2 shadow-xl shadow-stone-800 sm:hidden">
-          <ul className="mt-3 flex flex-col gap-2 tracking-widest text-primary">
+        <div className="navOpen sticky top-24 z-50 m-0 rounded-none px-6 py-2 shadow-xl shadow-stone-800 sm:hidden">
+          <ul className="mt-3 flex flex-col gap-2 tracking-widest text-secondary">
             <li className="text-[25px] font-bold">
               <a
                 href="#home"

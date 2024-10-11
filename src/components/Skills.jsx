@@ -26,7 +26,7 @@ function Skills() {
               <img
                 src="languanges.png"
                 alt="languages"
-                className="h-84 w-96 rounded-md bg-primary sm:w-96"
+                className="h-84 card w-96 rounded-md sm:w-96"
               />
             </motion.div>
           )}
@@ -47,7 +47,7 @@ function Skills() {
               <img
                 src="frameworks.png"
                 alt="frameworks"
-                className="h-84 w-96 rounded-md bg-primary sm:w-96"
+                className="h-84 card w-96 rounded-md sm:w-96"
               />
             </motion.div>
           )}
@@ -68,7 +68,7 @@ function Skills() {
               <img
                 src="database.png"
                 alt="database"
-                className="h-84 w-96 rounded-md bg-primary sm:w-96"
+                className="h-84 card w-96 rounded-md sm:w-96"
               />
             </motion.div>
           )}
@@ -89,7 +89,7 @@ function Skills() {
               <img
                 src="version.png"
                 alt="version"
-                className="h-84 w-96 rounded-md bg-primary sm:w-96"
+                className="h-84 card w-96 rounded-md sm:w-96"
               />
             </motion.div>
           )}

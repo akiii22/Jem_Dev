@@ -10,7 +10,7 @@ function About() {
   return (
     <div className="mx-5 mt-52">
       <div
-        className="mx-4 my-5 flex flex-col items-center justify-center gap-6 rounded-xl bg-primary p-7 shadow-2xl sm:mx-auto sm:flex sm:items-center sm:justify-around"
+        className="navOpen mx-4 my-5 flex flex-col items-center justify-center gap-6 rounded-xl p-7 shadow-2xl sm:mx-auto sm:flex sm:items-center sm:justify-around"
         id="about"
       >
         <motion.h2
