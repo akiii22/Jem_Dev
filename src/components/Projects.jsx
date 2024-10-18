@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
+import Button from "./Button";
 
 function Projects() {
   return (
@@ -32,15 +33,17 @@ function Projects() {
                 page application using React Router, Context API, and
                 useReducers.
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://github.com/akiii22/Assignment_Tracker"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-500 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://github.com/akiii22/Assignment_Tracker"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
             </div>
@@ -63,15 +66,17 @@ function Projects() {
                 My JavaScript application where you can deposit money, withdraw,
                 and transfer money using JavaScript DOM and array manipulation.
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://github.com/akiii22/bankist_app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-500 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://github.com/akiii22/bankist_app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
               <motion.img
@@ -109,15 +114,17 @@ function Projects() {
                 A JavaScript project where you can search for your favorite
                 pizza and add it to your favorites or create your own recipe.
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://github.com/akiii22/forkify_app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-500 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://github.com/akiii22/forkify_app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
             </div>
@@ -140,15 +147,17 @@ function Projects() {
                 them to your list. The first project that introduced me to the
                 useEffect hook.
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://github.com/akiii22/MovieApp"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-500 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://github.com/akiii22/MovieApp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
               <motion.img
@@ -187,15 +196,17 @@ function Projects() {
                 our thesis, an e-commerce website for a hardware shop with data
                 visualization.
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://kclhardware.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-500 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://kclhardware.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
             </div>
@@ -218,15 +229,17 @@ function Projects() {
                 where you travel. This is a single page application. It uses a
                 useReducer, Context API, React Router.{" "}
                 <span className="mx-2">
-                  Check the project
-                  <a
-                    href="https://github.com/akiii22/MaptyProject"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mx-2 italic text-blue-900 underline"
-                  >
-                    here
-                  </a>
+                  Check the
+                  <Button>
+                    <a
+                      href="https://github.com/akiii22/MaptyProject"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mx-2 tracking-wider text-primary"
+                    >
+                      project here...
+                    </a>
+                  </Button>
                 </span>
               </motion.p>
               <motion.img
